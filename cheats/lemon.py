@@ -7,3 +7,11 @@ if __name__ == "__main__":
     testBoard = LemonBoard(test)
 
     testBoard.printBoard()
+    print()
+
+    print(testBoard.checkRowVector(1, 2, 3))
+    print(testBoard.checkRowVector(1, 4, 5))
+    print(testBoard.checkRowVector(2, 3, 4))
+    print(testBoard.checkColVector(0, 0, 2))
+    print(testBoard.checkColVector(2, 0, 2))
+
